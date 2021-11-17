@@ -19,7 +19,7 @@ function(https, record, runtime, search, currentRecord) {
         var cr = currentRecord.get();
         var recName = cr.id;
 
-        //Updating Code on my first test branch
+
 
         // var urlForOrderAck = 'https://6912267.app.netsuite.com/app/site/hosting/scriptlet.nl?script=1259&deploy=1';
         //
