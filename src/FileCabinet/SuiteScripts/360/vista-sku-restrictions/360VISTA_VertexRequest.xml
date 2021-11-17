@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<x:Envelope xmlns:x="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:vertexinc:o-series:tps:7:0">
+    <x:Header />
+    <x:Body>
+        <!--  Sample Address lookup for testing of Tax Calculation Web Service  -->
+        <VertexEnvelope xmlns="urn:vertexinc:o-series:tps:7:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <Login>
+                <TrustedId>_TRUSTED_ID_</TrustedId>
+            </Login>
+            <TaxAreaRequest>
+                <TaxAreaLookup>
+                    <PostalAddress>
+                        <StreetAddress1>_ADDRESS1_</StreetAddress1>
+                        <StreetAddress2>_ADDRESS2_</StreetAddress2>
+                        <City>_CITY_</City>
+                        <MainDivision>_STATE_</MainDivision>
+                        <PostalCode>_ZIP_</PostalCode>
+                    </PostalAddress>
+                </TaxAreaLookup>
+            </TaxAreaRequest>
+        </VertexEnvelope>
+    </x:Body>
+</x:Envelope>
