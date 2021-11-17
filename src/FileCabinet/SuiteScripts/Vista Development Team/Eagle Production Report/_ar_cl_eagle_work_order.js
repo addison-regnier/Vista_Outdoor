@@ -19,9 +19,7 @@ function(https, record, runtime, search, currentRecord) {
         var cr = currentRecord.get();
         var recName = cr.id;
 
-        //Hello World
 
-        //heeloo
         // var urlForOrderAck = 'https://6912267.app.netsuite.com/app/site/hosting/scriptlet.nl?script=1259&deploy=1';
         //
         // urlForOrderAck += '&reqId=' + recName;
